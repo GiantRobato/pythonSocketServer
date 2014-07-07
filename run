@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "starting server"
+nohup python3 testServer.py &
+sleep 3
+
+echo "running client\n\n"
+echo "Response: "
+python3 client.py

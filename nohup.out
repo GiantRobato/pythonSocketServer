@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "testServer.py", line 17, in <module>
+    server = MyTCPServer(('127.0.0.1', 13373), MyTCPServerHandler)
+  File "/usr/lib/python3.4/socketserver.py", line 429, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.4/socketserver.py", line 440, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "testServer.py", line 17, in <module>
+    server = MyTCPServer(('127.0.0.1', 13373), MyTCPServerHandler)
+  File "/usr/lib/python3.4/socketserver.py", line 429, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.4/socketserver.py", line 440, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
